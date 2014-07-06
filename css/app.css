@@ -6924,29 +6924,34 @@ blockquote p {
 
 @media only screen and (min-width: 40.063em) {
   /* line 456, ../scss/components/_type.scss */
+  /*
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
-  }
+  }*/
 
   /* line 457, ../scss/components/_type.scss */
+  /*
   h1 {
     font-size: 2.75rem;
-  }
+  }*/
 
   /* line 458, ../scss/components/_type.scss */
+  /*
   h2 {
     font-size: 2.3125rem;
-  }
+  }*/
 
   /* line 459, ../scss/components/_type.scss */
+  /*
   h3 {
     font-size: 1.6875rem;
-  }
+  }*/
 
   /* line 460, ../scss/components/_type.scss */
+  /*
   h4 {
     font-size: 1.4375rem;
-  }
+  }*/
 }
 /*
  * Print styles.

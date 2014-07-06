@@ -6172,7 +6172,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 422, ../scss/components/_top-bar.scss */
   .top-bar {
-    background: #333333;
+    /*background: #333333;*/
     *zoom: 1;
     overflow: visible;
   }

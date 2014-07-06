@@ -5988,8 +5988,10 @@ meta.foundation-mq-topbar {
 }
 /* line 245, ../scss/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a span {
-  -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
-  box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
+  /*-webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
+  box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;*/
+  -webkit-box-shadow: 0 2px 0 1px #888888;
+  box-shadow: 0 2px 0 1px #888888;
 }
 
 /* line 265, ../scss/components/_top-bar.scss */
@@ -6006,7 +6008,8 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #333333;
+  /*background: #333333;*/
+  background:inherit;
   font-size: 16px;
   margin: 0;
 }
@@ -6028,7 +6031,7 @@ meta.foundation-mq-topbar {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
-  background: #333333;
+  /*background: #333333;*/
 }
 /* line 300, ../scss/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
@@ -6243,7 +6246,7 @@ meta.foundation-mq-topbar {
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
-    background: #333333;
+    /*background: #333333;*/
   }
   /* line 475, ../scss/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {

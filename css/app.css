@@ -5871,7 +5871,7 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #333333;
+  background: #AAAAAA;
   margin-bottom: 0;
 }
 /* line 131, ../scss/components/_top-bar.scss */
@@ -5976,11 +5976,11 @@ meta.foundation-mq-topbar {
 /* line 237, ../scss/components/_top-bar.scss */
 .top-bar.expanded {
   height: auto;
-  background: transparent;
+  /*background: transparent;*/
 }
 /* line 241, ../scss/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #333333;
+  /*background: #333333;*/
 }
 /* line 244, ../scss/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {

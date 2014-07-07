@@ -6306,7 +6306,7 @@ meta.foundation-mq-topbar {
   .top-bar-section .dropdown {
     left: 0;
     top: auto;
-    background: transparent;
+    /*background: transparent;*/
     min-width: 100%;
   }
   /* line 536, ../scss/components/_top-bar.scss */
@@ -6315,7 +6315,7 @@ meta.foundation-mq-topbar {
     line-height: 1;
     white-space: nowrap;
     padding: 12px 15px;
-    background: #333333;
+    /*background: #333333;*/
   }
   /* line 544, ../scss/components/_top-bar.scss */
   .top-bar-section .dropdown li label {

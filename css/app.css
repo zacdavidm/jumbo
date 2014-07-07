@@ -5999,6 +5999,7 @@ meta.foundation-mq-topbar {
   left: 0;
   position: relative;
   width: auto;
+  background:inherit;
   -webkit-transition: left 300ms ease-out;
   -moz-transition: left 300ms ease-out;
   transition: left 300ms ease-out;
@@ -6008,7 +6009,6 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  /*background: #333333;*/
   background:inherit;
   font-size: 16px;
   margin: 0;
@@ -6090,6 +6090,7 @@ meta.foundation-mq-topbar {
 /* line 352, ../scss/components/_top-bar.scss */
 .top-bar-section .has-dropdown {
   position: relative;
+  background:inherit;
 }
 /* line 356, ../scss/components/_top-bar.scss */
 .top-bar-section .has-dropdown > a:after {
@@ -6121,6 +6122,7 @@ meta.foundation-mq-topbar {
   top: 0;
   display: none;
   z-index: 99;
+  background:inherit;
 }
 /* line 383, ../scss/components/_top-bar.scss */
 .top-bar-section .dropdown li {

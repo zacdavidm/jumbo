@@ -113,7 +113,7 @@
   <?php endif; ?>
 
   <main role="main" class="row l-main">
-    <div class="<?php print $main_grid; ?> main columns">
+
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlight panel callout">
           <?php print render($page['highlighted']); ?>
@@ -142,20 +142,8 @@
       <?php endif; ?>
 
       <?php print render($page['content']); ?>
-    </div>
+
     <!--/.main region -->
-
-    <?php if (!empty($page['sidebar_first'])): ?>
-      <aside role="complementary" class="<?php print $sidebar_first_grid; ?> sidebar-first columns sidebar">
-        <?php print render($page['sidebar_first']); ?>
-      </aside>
-    <?php endif; ?>
-
-    <?php if (!empty($page['sidebar_second'])): ?>
-      <aside role="complementary" class="<?php print $sidebar_sec_grid; ?> sidebar-second columns sidebar">
-        <?php print render($page['sidebar_second']); ?>
-      </aside>
-    <?php endif; ?>
   </main>
   <!--/.main-->
 

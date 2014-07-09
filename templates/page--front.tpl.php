@@ -112,7 +112,7 @@
     <!--/.l-help -->
   <?php endif; ?>
 
-  <main role="main" class="row l-main">
+  <main role="main" class="l-main">
 
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlight panel callout">

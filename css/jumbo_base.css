@@ -6,3 +6,8 @@ a.tabledrag-handle .handle{
 table.field-ui-overview tr.add-new .label-input{
   width: calc(100% - 1.5rem);
 }
+
+ul[class*='-block-grid-'].collapse li{
+  padding-left:0;
+  padding-right:0;
+}

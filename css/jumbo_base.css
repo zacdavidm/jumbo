@@ -11,3 +11,48 @@ ul[class*='-block-grid-'].collapse li{
   padding-left:0;
   padding-right:0;
 }
+
+/* Top Bar */
+
+  /*
+  .top-bar-section .has-dropdown > a:after{
+    border-left-color: rgba(0, 0, 0, 0.4);
+  }*/
+
+.top-bar.expanded .title-area,
+.top-bar .name h1,
+.top-bar .name h1 a,
+.top-bar .toggle-topbar.menu-icon a,
+.top-bar-section,
+.top-bar-section ul,
+.top-bar-section .dropdown,
+.top-bar-section .dropdown li.title h5 a,
+.top-bar-section li:not(.has-form),
+.top-bar-section li:not(.has-form) a:not(.button){
+  color:inherit;
+  background-color:inherit;
+}
+
+.top-bar .toggle-topbar.menu-icon a::after{
+  -webkit-box-shadow: 0 10px 0 1px, 0 16px 0 1px, 0 22px 0 1px;
+  box-shadow: 0 10px 0 1px, 0 16px 0 1px, 0 22px 0 1px;
+}
+.top-bar.expanded .toggle-topbar a span{
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+.top-bar .name{
+  height:auto;
+  margin-bottom:1rem;
+}
+.contain-to-grid{
+  color: #ffffff;
+  border-bottom-width:3px;
+  border-bottom-style:solid;
+}
+.contain-to-grid .top-bar {
+  color:inherit;
+  background-color:inherit;
+}
+/* /Top Bar */

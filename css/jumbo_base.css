@@ -57,6 +57,14 @@ ul[class*='-block-grid-'].collapse li{
 }
 /* /Top Bar */
 
+/* Main */
+
+.l-main{
+  clear:both;
+}
+
+/* /Main */
+
 /* Button Group */
 .button-group li .button{
   margin-bottom:0;

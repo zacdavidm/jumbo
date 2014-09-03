@@ -71,13 +71,14 @@ ul[class*='-block-grid-'].collapse li{
 }
 /* /Button Group */
 
-/* Menus, Inline links */
+/* Menus, Inline links, Action links */
 
 ul.menu{
   list-style-type:none;
 }
 
-.links.inline {
+.links.inline,
+.action-links {
   margin: 0 auto 1.0625rem auto;
   margin-left: -1.375rem;
   margin-right: 0;
@@ -86,15 +87,19 @@ ul.menu{
   overflow: hidden;
 }
 
-.links.inline > li{
+.links.inline > li,
+.action-links > li
+{
   list-style: none;
   float: left;
   margin-left: 1.375rem;
   display: block;
 }
 
-.links.inline > li>* {
+.links.inline > li>*,
+.action-links > li>*
+ {
 display: block;
 }
 
-/* /Menus, Inline links */
+/* /Menus, Inline links, Action links */
